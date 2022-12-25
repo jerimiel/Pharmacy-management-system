@@ -1,0 +1,84 @@
+body{
+    background-color:black;
+    color:#108030;
+}
+#container{
+    margin:25px;
+    text-align: center;
+}
+#tableOne{
+    margin:0 auto
+}
+#container button{
+    margin-top: 25px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width:100px;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: #108030;
+    box-shadow: 0px 2px rgb(48, 47, 47);
+    color:black;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#tableOne input{
+    margin-left: 10px;
+    margin-right: 10px;
+    width:200px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-width: 3px;
+    border-radius: 5px;
+    background-color: white;
+    color:black;
+    height:15px;
+    font-weight: bold;
+}
+#container button:active{
+    transform: translateY(2px);
+    box-shadow: 0px 0px;
+}
+#tableOne label{
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#database{
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    margin:0 auto;
+    
+}
+#database td{
+    width:150px;
+    text-align: center;
+    border:1px double #108030;
+    color:whitesmoke;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: monospace;
+    font-size: 15px;
+}
+caption{
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration:underline;
+    padding-bottom: 20px;
+}
+#table-cap{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration:underline;
+    padding-bottom: 20px;
+}
+#database th{
+    width:150px;
+    text-align: center;
+    border:2px double #108030;
+    text-transform: uppercase;
+    color:white
+}

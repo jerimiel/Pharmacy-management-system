@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+    <table id="tableOne">
+        <caption>Pharmacy Management System</caption>
+        <tr>
+            <td>
+                <label for="name">Title</label>   
+            </td>
+            <td>
+                <label for="brand">Brand</label>
+            </td>
+            <td>
+                <label for="date">Expiry Date</label>
+            </td>
+            <td>
+                <label for="price">Price</label>
+            </td>
+            <td>
+                <label for="qty">Quantity</label>
+            </td>
+        <tr>
+            <td>
+                <input type="text" id="title-el" name="name" title="TITLE">
+            </td>
+            <td>
+                <input type="text" id="brand-el" name="brand">
+            </td>
+            <td>
+                <input type="text" id="date-el" name="date" placeholder="YYYY-MM-DD">
+            </td>
+            <td>
+                <input type="text" id="price-el" name="price">
+            </td>
+            <td>
+                <input type="text" id="qty-el" name="qty">
+            </td>
+        </tr>
+    </table>
+    <button id="add-el">ADD</button>
+    <button id="remove-el">REMOVE</button>
+    <button id="search-el">SEARCH</button>
+    <button id="deleteall-el">DELETE ALL</button>
+    <button id="update-el">UPDATE ENTRY</button>
+    </div>
+    <p id="warnings"></p>
+    <p id="demo"></p>
+</body>
+<script type="module" src="static/index.js"></script>
+</html>
